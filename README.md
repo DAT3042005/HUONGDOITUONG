@@ -17,15 +17,18 @@ public class hello {
 		System.out.println("nhap ma so sinh vien: ");
 		int MSSV = sc.nextInt();
 		
+		
+		
+		
+		
 		System.out.println("ho va ten la: "+ hoten);
 		System.out.println("nam sinh la: "+ namsinh);
 	    System.out.println("ma lop: "+ malop);
 	    System.out.println("MSSV: "+ MSSV);
-
-		
-		
-		
-		
+	   
+	    int tong= 2024-namsinh;
+	    System.out.println("vay nam nay tuoi ban la:  "+ tong);
+	   
 		
 		
 		
