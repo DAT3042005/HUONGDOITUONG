@@ -1,0 +1,21 @@
+package baitap1;
+import java.util.Scanner;
+public class b1 {
+
+	public static void main(String[] args){
+		int tong =0;
+		Scanner sc = new Scanner(System.in);
+		System.out.print("nhap vao so nguyen duong: ");
+		int n = sc.nextInt();
+		 for(int i = 1; i <= n; ++i)
+	        {
+	        tong +=i;
+		
+	    }
+		System.out.print("tong day so nguyen duong la: "+tong);
+		
+	}	
+}
+	
+
+
